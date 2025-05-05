@@ -5,6 +5,7 @@ import LikeButton from './component/LikeButton'
 import { items } from './component/Accordion/data'
 import GuessTheNumber from './component/Guess Number/GuessNumber'
 import ProgressBar from './component/progressBar/ProgressBar'
+import ContactForm from './component/contactform/ContactForm'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <LikeButton/> */}
       {/* <Accordion items = {items}/> */}
       {/* <GuessTheNumber/> */}
-      <ProgressBar/>
+      {/* <ProgressBar/> */}
+      <ContactForm/>
     </div>
   )
 }

@@ -1,0 +1,44 @@
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .container {
+    width: 700px;
+    background-color: white;
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0vmin;
+  }
+  
+  .field{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    text-align: left;
+  }
+  .input {
+    padding: 10px;
+    background-color: rgba(149, 213, 253, 0.311);
+    border: 2px solid rgb(90, 166, 192);
+    border-radius: 10px;
+  }
+  .button {
+    border: 1px solid blue;
+    border-radius: 2px;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgb(9, 9, 250);
+    color: white;
+    cursor: pointer;
+  }
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
