@@ -6,6 +6,7 @@ import { items } from './component/Accordion/data'
 import GuessTheNumber from './component/Guess Number/GuessNumber'
 import ProgressBar from './component/progressBar/ProgressBar'
 import ContactForm from './component/contactform/ContactForm'
+import LoadingSkeleton from './component/animatedLoadingSkeleton/LoadingSkeleton'
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       {/* <Accordion items = {items}/> */}
       {/* <GuessTheNumber/> */}
       {/* <ProgressBar/> */}
-      <ContactForm/>
+      {/* <ContactForm/> */}
+      <LoadingSkeleton/>
     </div>
   )
 }
