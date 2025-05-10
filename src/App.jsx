@@ -7,6 +7,7 @@ import GuessTheNumber from './component/Guess Number/GuessNumber'
 import ProgressBar from './component/progressBar/ProgressBar'
 import ContactForm from './component/contactform/ContactForm'
 import LoadingSkeleton from './component/animatedLoadingSkeleton/LoadingSkeleton'
+import Stopwatch from './component/StopWatch'
 
 
 function App() {
@@ -19,7 +20,8 @@ function App() {
       {/* <GuessTheNumber/> */}
       {/* <ProgressBar/> */}
       {/* <ContactForm/> */}
-      <LoadingSkeleton/>
+      {/* <LoadingSkeleton/> */}
+      <Stopwatch/>
     </div>
   )
 }
