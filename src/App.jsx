@@ -8,9 +8,16 @@ import ProgressBar from './component/progressBar/ProgressBar'
 import ContactForm from './component/contactform/ContactForm'
 import LoadingSkeleton from './component/animatedLoadingSkeleton/LoadingSkeleton'
 import Stopwatch from './component/StopWatch'
+import Tabs from './component/tabsComponent/Tabs'
 
 
 function App() {
+
+  const tabsData = [
+    { title: "", content: "This is the content of Tab 1" },
+    { title: "Tab 2", content: "This is the content of Tab 2" },
+    { title: "Tab 3", content: "This is the content of Tab 3" }
+  ];
 
   return (
     <div>
@@ -21,7 +28,8 @@ function App() {
       {/* <ProgressBar/> */}
       {/* <ContactForm/> */}
       {/* <LoadingSkeleton/> */}
-      <Stopwatch/>
+      {/* <Stopwatch/> */}
+      <Tabs tabs={tabsData}/>
     </div>
   )
 }

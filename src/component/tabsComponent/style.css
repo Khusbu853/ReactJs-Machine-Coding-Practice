@@ -1,0 +1,19 @@
+.tab-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  
+  .title {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
