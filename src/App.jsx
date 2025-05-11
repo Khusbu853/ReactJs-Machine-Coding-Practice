@@ -9,6 +9,7 @@ import ContactForm from './component/contactform/ContactForm'
 import LoadingSkeleton from './component/animatedLoadingSkeleton/LoadingSkeleton'
 import Stopwatch from './component/StopWatch'
 import Tabs from './component/tabsComponent/Tabs'
+import PasswordStrength from './component/PasswordStrength'
 
 
 function App() {
@@ -29,7 +30,8 @@ function App() {
       {/* <ContactForm/> */}
       {/* <LoadingSkeleton/> */}
       {/* <Stopwatch/> */}
-      <Tabs tabs={tabsData}/>
+      {/* <Tabs tabs={tabsData}/> */}
+      <PasswordStrength/>
     </div>
   )
 }
