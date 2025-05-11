@@ -10,6 +10,7 @@ import LoadingSkeleton from './component/animatedLoadingSkeleton/LoadingSkeleton
 import Stopwatch from './component/StopWatch'
 import Tabs from './component/tabsComponent/Tabs'
 import PasswordStrength from './component/PasswordStrength'
+import ToastContainer from './component/toast/ToastContainer'
 
 
 function App() {
@@ -31,7 +32,8 @@ function App() {
       {/* <LoadingSkeleton/> */}
       {/* <Stopwatch/> */}
       {/* <Tabs tabs={tabsData}/> */}
-      <PasswordStrength/>
+      {/* <PasswordStrength/> */}
+      <ToastContainer/>
     </div>
   )
 }
