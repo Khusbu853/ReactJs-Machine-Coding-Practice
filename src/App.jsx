@@ -11,9 +11,12 @@ import Stopwatch from './component/StopWatch'
 import Tabs from './component/tabsComponent/Tabs'
 import PasswordStrength from './component/PasswordStrength'
 import ToastContainer from './component/toast/ToastContainer'
+import ProgressBar2 from './component/progressBar2/ProgressBar2'
 
 
 function App() {
+
+  const bars = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
   const tabsData = [
     { title: "", content: "This is the content of Tab 1" },
@@ -33,7 +36,11 @@ function App() {
       {/* <Stopwatch/> */}
       {/* <Tabs tabs={tabsData}/> */}
       {/* <PasswordStrength/> */}
-      <ToastContainer/>
+      {/* <ToastContainer/> */}
+      <h1>Progress Bar</h1>
+      {bars.map((bar) => (
+        <ProgressBar2 key={bar} progress={bar}/>
+      ))}
     </div>
   )
 }
