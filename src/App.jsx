@@ -12,6 +12,7 @@ import Tabs from './component/tabsComponent/Tabs'
 import PasswordStrength from './component/PasswordStrength'
 import ToastContainer from './component/toast/ToastContainer'
 import ProgressBar2 from './component/progressBar2/ProgressBar2'
+import Carousel from './component/cardCarousel/Carousel'
 
 
 function App() {
@@ -22,6 +23,12 @@ function App() {
     { title: "", content: "This is the content of Tab 1" },
     { title: "Tab 2", content: "This is the content of Tab 2" },
     { title: "Tab 3", content: "This is the content of Tab 3" }
+  ];
+
+  const cards = [
+    { title: "Card 1", description: "Description for Card 1" },
+    { title: "Card 2", description: "Description for Card 2" },
+    { title: "Card 3", description: "Description for Card 3" },
   ];
 
   return (
@@ -37,10 +44,11 @@ function App() {
       {/* <Tabs tabs={tabsData}/> */}
       {/* <PasswordStrength/> */}
       {/* <ToastContainer/> */}
-      <h1>Progress Bar</h1>
+      {/* <h1>Progress Bar</h1>
       {bars.map((bar) => (
         <ProgressBar2 key={bar} progress={bar}/>
-      ))}
+      ))} */}
+      <Carousel cards={cards}/>
     </div>
   )
 }
